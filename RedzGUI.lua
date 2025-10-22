@@ -27,7 +27,7 @@ local redzlib = {
 		Version = "0.0.1"
 	},
 	Save = {
-		UISize = {350, 250},
+		UISize = {150, 100},
 		TabSize = 100,
 		Theme = "Darker"
 	},
@@ -2676,5 +2676,6 @@ function redzlib:MakeWindow(Configs)
 	MinimizeButton.Activated:Connect(Window.MinimizeBtn)
 	return Window
 end
+
 
 return redzlib
