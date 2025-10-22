@@ -864,7 +864,7 @@ local redzlib = {
 }
 
 local ViewportSize = workspace.CurrentCamera.ViewportSize
-local UIScale = ViewportSize.Y / 630
+local UIScale = ViewportSize.Y / 580
 
 local Settings = redzlib.Settings
 local Flags = redzlib.Flags
@@ -2679,6 +2679,7 @@ end
 
 
 return redzlib
+
 
 
 
