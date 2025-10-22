@@ -864,7 +864,7 @@ local redzlib = {
 }
 
 local ViewportSize = workspace.CurrentCamera.ViewportSize
-local UIScale = ViewportSize.Y / 550
+local UIScale = ViewportSize.Y / 650
 
 local Settings = redzlib.Settings
 local Flags = redzlib.Flags
@@ -2676,5 +2676,6 @@ function redzlib:MakeWindow(Configs)
 	MinimizeButton.Activated:Connect(Window.MinimizeBtn)
 	return Window
 end
+
 
 return redzlib
